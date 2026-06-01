@@ -7,8 +7,9 @@ Minimal edit from i3wm default configuration.
 - feh (*wallpaper display*)
 - kitty (*terminal emulator*)
 - polybar (*status bar*)
-- picom (*transparency in terminal*)
+- compton (*transparency in terminal* but use picom in config)
 - rofi (*program launcher/finder*)
+- flameshot (screenshot)
 
 ---
 
