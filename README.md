@@ -10,6 +10,7 @@ Minimal edit from i3wm default configuration.
 - compton (*transparency in terminal* but use picom in config)
 - rofi (*program launcher/finder*)
 - flameshot (screenshot)
+- thunar (file explorer)
 
 ---
 
