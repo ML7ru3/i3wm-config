@@ -65,7 +65,7 @@ exec_always feh --bg-fill $CONFIG_PATH/wallpapers/galaxy.jpg # (default galaxy.j
 
 # transparency for terminal
 set $refresh_picom killall -SIGUSR1 picom
-exec --no-startup-id $refresh_picom; picom -b --config $CONFIG_PATH/picom.conf  # this is for transparency
+exec_always --no-startup-id $refresh_picom; picom -b --config $CONFIG_PATH/picom.conf  # this is for transparency
 
 # kill focused window
 bindsym $mod+Shift+q kill
