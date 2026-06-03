@@ -68,6 +68,7 @@ set $refresh_picom killall -SIGUSR1 picom
 exec_always --no-startup-id $refresh_picom; picom -b --config $CONFIG_PATH/picom.conf  # this is for transparency
 
 # open file explorer (thunar)
+for_window [class="Thunar"] floating enable, resize set 1000 600, move position center
 bindsym $mod+Shift+f exec thunar
 
 # kill focused window
