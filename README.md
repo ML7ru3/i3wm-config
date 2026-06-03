@@ -11,6 +11,7 @@ Minimal edit from i3wm default configuration.
 - rofi (*program launcher/finder*)
 - flameshot (screenshot)
 - thunar (file explorer)
+- xclip (copy/paste outside terminal)
 
 ---
 
